@@ -13,3 +13,5 @@ __meta__ = {
 }
 
 [node name="Pig" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+SPEED = 50
