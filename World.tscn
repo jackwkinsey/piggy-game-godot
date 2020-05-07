@@ -18,6 +18,10 @@ __meta__ = {
 }
 
 [node name="Pig" type="Area2D" parent="."]
+position = Vector2( 30.6283, 22.1868 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="Pig"]
 texture = ExtResource( 1 )
