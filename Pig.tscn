@@ -8,12 +8,10 @@ radius = 6.5
 height = 7.0
 
 [node name="Pig" type="Area2D"]
-position = Vector2( 30.6283, 22.1868 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
-SPEED = 50
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
