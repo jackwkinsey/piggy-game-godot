@@ -1,3 +1,11 @@
 [gd_scene format=2]
 
 [node name="World" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 640.0
+margin_bottom = 360.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
