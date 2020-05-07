@@ -1,6 +1,6 @@
  extends Area2D
 
-const SPEED = 100;
+export(int) var SPEED = 100;
 
 func _process(delta):
 	if Input.is_action_pressed("ui_right"):
