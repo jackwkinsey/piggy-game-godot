@@ -3,6 +3,7 @@
 export(int) var SPEED = 100;
 
 onready var animation_player = $AnimationPlayer
+onready var sprite = $Sprite
 
 var moving = false
 
@@ -11,8 +12,10 @@ func _process(delta):
 	
 	if Input.is_action_pressed("ui_right"):
 		move(SPEED, 0, delta)
+		sprite.flip_h = false
 	if Input.is_action_pressed("ui_left"):
 		move(-SPEED, 0, delta)
+		sprite.flip_h = true
 	if Input.is_action_pressed("ui_up"):
 		move(0, -SPEED, delta)
 	if Input.is_action_pressed("ui_down"):
