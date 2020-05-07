@@ -58,5 +58,6 @@ rotation = 1.5708
 shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+playback_speed = 0.5
 anims/Idle = SubResource( 2 )
 anims/Run = SubResource( 3 )
