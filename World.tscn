@@ -23,6 +23,7 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
+SPEED = 50
 
 [node name="Sprite" type="Sprite" parent="Pig"]
 texture = ExtResource( 1 )
