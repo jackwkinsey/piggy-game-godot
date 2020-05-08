@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="Piggy"
 run/main_scene="res://World.tscn"
-config/icon="res://Apple.png"
+config/icon="res://icon.png"
 
 [display]
 
