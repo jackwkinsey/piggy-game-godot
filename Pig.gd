@@ -33,3 +33,4 @@ func move(xSpeed, ySpeed, delta):
 
 func _on_Pig_area_entered(area):
 	area.queue_free();
+	scale *= 1.1
