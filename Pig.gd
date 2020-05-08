@@ -30,3 +30,6 @@ func move(xSpeed, ySpeed, delta):
 	moving = true
 	position.x += xSpeed * delta
 	position.y += ySpeed * delta
+
+func _on_Pig_area_entered(area):
+	area.queue_free();
